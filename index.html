@@ -1,0 +1,255 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Finance & Analytics Blog</title>
+  <style>
+    body {
+      font-family: "Poppins", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f7fa;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #0d6efd;
+      color: white;
+      text-align: center;
+      padding: 1.5rem 0;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2rem;
+    }
+
+    .container {
+      width: 85%;
+      margin: 2rem auto;
+      max-width: 1000px;
+      background: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      color: #0d6efd;
+      border-left: 4px solid #0d6efd;
+      padding-left: 10px;
+    }
+
+    img {
+      width: 100%;
+      border-radius: 8px;
+      margin: 1rem 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #0d6efd;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    pre {
+      background: #f0f0f0;
+      padding: 1rem;
+      border-radius: 8px;
+      overflow-x: auto;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>📊 My Finance & Analytics Blog</h1>
+    <p>Insights, Visuals & Learnings from Data</p>
+  </header>
+
+  <div class="container">
+    <h2>Introduction</h2>
+    <p>
+      Welcome to my Finance & Analytics blog! Here I share insights from datasets,
+      Python visualizations, and key takeaways from market analysis.
+    </p>
+
+    <h2>Visual Example</h2>
+    <img src="stock_chart.png" alt="Stock Trend Chart">
+
+    <h2>Sample Python Code</h2>
+    <pre><code>
+import pandas as pd
+import matplotlib.pyplot as plt
+df = pd.read_csv("Quote-Equity-ABFRL-EQ.csv")
+plt.plot(df['Close'])
+plt.title("Stock Trend")
+plt.savefig("stock_chart.png")
+plt.show()
+    </code></pre>
+
+    <h2>Conclusion</h2>
+    <p>
+      This project shows how simple Python data visualizations can be turned into
+      interactive HTML blogs using just Notepad and your browser.
+    </p>
+  </div>
+
+  <footer>
+    <p>© 2025 Dhanush Analytics | Created with ❤️ using HTML</p>
+  </footer>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Finance & Analytics Blog</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Arial, sans-serif;
+      background-color: #f7f9fb;
+      color: #333;
+      margin: 40px;
+      line-height: 1.6;
+    }
+    h1 {
+      text-align: center;
+      color: #0056b3;
+    }
+    h2 {
+      color: #0056b3;
+      border-left: 5px solid #0056b3;
+      padding-left: 10px;
+      margin-top: 40px;
+    }
+    img {
+      display: block;
+      margin: 20px auto;
+      border-radius: 10px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+      width: 70%;
+    }
+    p {
+      margin: 10px 0;
+    }
+    code {
+      display: block;
+      background: #f1f1f1;
+      padding: 15px;
+      border-radius: 10px;
+      margin-top: 10px;
+      font-family: Consolas, monospace;
+    }
+    .interpretation {
+      background: #e9f5ff;
+      border-left: 4px solid #007bff;
+      padding: 10px;
+      margin-top: 10px;
+      border-radius: 8px;
+    }
+  </style>
+</head>
+
+<body>
+
+  <h1>📘 My Finance & Analytics Blog</h1>
+
+  <h2>📖 Introduction</h2>
+  <p>
+    Welcome to my Finance & Analytics blog! Here I share insights from financial datasets, Python visualizations,
+    and data-driven interpretations on market trends and performance metrics.
+  </p>
+
+  <!-- VISUAL 1 -->
+  <h2>📈 Visual 1: Stock Price Trend</h2>
+  <img src="stock_chart.png" alt="Stock Trend Chart">
+  <div class="interpretation">
+    <b>Interpretation:</b> The stock shows a steady upward trend over the past 6 months,
+    indicating positive investor sentiment and strong quarterly results.
+  </div>
+
+  <!-- VISUAL 2 -->
+  <h2>💰 Visual 2: Revenue Growth Analysis</h2>
+  <img src="revenue_growth.png" alt="Revenue Growth Chart">
+  <div class="interpretation">
+    <b>Interpretation:</b> The company’s revenue grew by 25% year-over-year, driven by
+    improved operational efficiency and increased product sales.
+  </div>
+
+  <!-- VISUAL 3 -->
+  <h2>📉 Visual 3: Expense Ratio Comparison</h2>
+  <img src="expense_ratio.png" alt="Expense Ratio Chart">
+  <div class="interpretation">
+    <b>Interpretation:</b> Operating expenses have stabilized while revenue increased,
+    resulting in a lower expense ratio and improved profitability margins.
+  </div>
+
+  <!-- VISUAL 4 -->
+  <h2>📊 Visual 4: Correlation Between Sales and Marketing Spend</h2>
+  <img src="sales_vs_marketing.png" alt="Sales vs Marketing Chart">
+  <div class="interpretation">
+    <b>Interpretation:</b> A positive correlation is observed between marketing spend and sales revenue,
+    showing that targeted campaigns effectively drive customer engagement.
+  </div>
+
+  <!-- PYTHON CODE -->
+  <h2>💻 Sample Python Code</h2>
+  <code>
+import pandas as pd<br>
+import matplotlib.pyplot as plt<br><br>
+df = pd.read_csv("company_data.csv")<br>
+plt.plot(df['Date'], df['Revenue'], label='Revenue')<br>
+plt.plot(df['Date'], df['Expenses'], label='Expenses')<br>
+plt.title("Revenue vs Expenses Trend")<br>
+plt.xlabel("Month")<br>
+plt.ylabel("Amount (₹)")<br>
+plt.legend()<br>
+plt.savefig("revenue_expense_chart.png")<br>
+plt.show()
+  </code>
+
+  <h2>🔍 Conclusion</h2>
+  <p>
+    This blog demonstrates how Python visualizations can reveal key insights in financial analysis.
+    With each chart, we can uncover performance patterns and strategic opportunities in the business environment.
+  </p>
+
+</body>
+</html>
+<h2>📊 Visual 1: ABFRL Raw Data Snapshot</h2>
+<img src="Screenshot 2025-10-28 175334.png" alt="ABFRL Data Table" width="650">
+<p><b>Interpretation:</b> This dataset contains the daily stock prices of ABFRL, including Open, High, Low, Close, and Volume columns, which serve as the foundation for our visual analysis.</p>
+
+<h2>📈 Visual 2: Stock Price Movement</h2>
+<img src="Screenshot 2025-10-28 175349.png" alt="ABFRL Stock Trend" width="650">
+<p><b>Interpretation:</b> The stock price initially showed a decline, indicating short-term volatility possibly caused by market correction or external factors.</p>
+
+<h2>📉 Visual 3: Closing Price Trend</h2>
+<img src="Screenshot 2025-10-28 175402.png" alt="ABFRL Closing Price" width="650">
+<p><b>Interpretation:</b> The closing price trend reveals gradual stabilization after an early dip, suggesting improved investor confidence over time.</p>
+
+<h2>📊 Visual 4: Moving Average Comparison</h2>
+<img src="Screenshot 2025-10-28 175417.png" alt="ABFRL Moving Average" width="650">
+<p><b>Interpretation:</b> The moving averages show short-term corrections aligning with long-term momentum, reflecting consistent market recovery.</p>
+
+<h2>📉 Visual 5: Stock Decline Pattern</h2>
+<img src="Screenshot 2025-10-28 175437.png" alt="ABFRL Decline Pattern" width="650">
+<p><b>Interpretation:</b> The sharp drop in prices reflects reaction to a specific event or result period, after which the trend begins to flatten.</p>
+
+<h2>📊 Visual 6: Daily Return Chart</h2>
+<img src="Screenshot 2025-10-28 175447.png" alt="ABFRL Daily Returns" width="650">
+<p><b>Interpretation:</b> The daily return chart highlights volatility in short intervals, showing both negative and positive spikes around the earnings cycle.</p>
+
+<h2>📈 Visual 7: Cumulative Returns</h2>
+<img src="Screenshot 2025-10-28 175500.png" alt="ABFRL Cumulative Returns" width="650">
+<p><b>Interpretation:</b> The cumulative return visualization depicts the overall profitability trajectory, showing gradual recovery and upward direction by the end of the observed period.</p>
+
+
+
